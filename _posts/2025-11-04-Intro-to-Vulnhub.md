@@ -1,5 +1,5 @@
 ---
-title: "Intro to Vulnhub"
+title: "M1: Getting Started with VirtualBox and Kali Linux"
 date: 2025-11-04
 categories:
   - VB
@@ -8,17 +8,70 @@ tags:
   - update
 ---
 
+<strong>VIRTUALBOX AND KALI LINUX</strong>
+
+> Brief Intro
+
+I have been interested in learning about VMs and vulnerable machines. While learning more about relevant concepts and skills, I hope to document my learning to both track my progress and reference in the future. This should be the start to a short series in exploring and getting comfortable with VirtualBox and my first vulnerable machine.
+
+> Tools/Sites
+
+[VirtualBox][vb-site]
+
+[Kali Linux][kali-site]
+
+[Vulnhub][vh-site]
+
+[Metasploitable 2][meta-site]
+
+[vb-site]: https://www.virtualbox.org/
+[kali-site]: https://www.kali.org/get-kali/#kali-platforms
+[vh-site]: https://www.vulnhub.com/lab/
+[meta-site]: https://www.vulnhub.com/entry/metasploitable-2,29/
+
+>VirtualBox
+
+What is it?
+
+VirtualBox is a software used to run virtual machines. Virtualization is the process/technology that allows for the loading and use of multiple operating systems (or virtual environments) on a singular host OS (which runs on top of a single host machine). Virtual machines are created using virtualization. These machines are isolated from the host machine and have their own resources, such as storage, memory, network, and OS. These resources, although independent, are taken and allocated from the host machine's hardware. 
+Virtual machines are ideal for testing and managing vulnerable machines as they are isolated from the host machine, and can be used as sandbox environments. This allows any sort of malware or risky activity to be contained within a virtual machine, thus protecting the host machine.
+
+How to Install:
+
+I had downloaded VirtualBox through the official site linked above. From what I remember I had no issues with getting the software installed and running. 
+
+Setting Up My First VM:
+
+This should be explained <a href=#vm-setup>below</a> where I install Kali Linux
+
+Lessons Learned / Further Research Needed:
+I had trouble with mouse+keyboard capture. This feature allows for the VM to recognize keyboard and mouse activity and take control of the activity so that the VM can use them independent of the host. During this capture, activity is not recognized by the host. The Host key can be used to release this ownership and give control back to the host machine. Originally, the Host key is the right ctrl by default. As I don't have a right ctrl on my keyboard, I had to change the settings for this so that I could seamlessly switch control of my mouse + keyboard between the host and the guest machines.
+**add screenshots
+
+Further explained in the [VirtualBox Manual][vb-manual]
+
+- I am still not too familiar with configuring VM settings, such as RAM and disk space. I hope to have a better understanding of these settings and what to choose depending on what I hope to accomplish with the VM in the future.
+- I will look into creating snapshots.
+
+[vb-manual]: https://www.virtualbox.org/manual/topics/working-with-vms.html#keyb_mouse_normal
+
+
+
+
+----------------------------------------------------------------
+
 <strong>Kali Linux</strong>
+<span id="vm-setup">Kali Linux setup</span>
 - importance + usage
 - iso files
 
-Downloading Metasploitable 2
+<strong>METASPLOITABLE 2</strong>
 - explanation
 
 Setting up VirtualBox
 - settings + reasoning
 - screenshots
-
+bidirectional
 
 ----------------------------
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
