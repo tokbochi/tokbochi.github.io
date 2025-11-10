@@ -2,9 +2,9 @@
 title: "M1: Getting Started with VirtualBox and Kali Linux"
 date: 2025-11-04
 categories:
-  - VB
+  - VirtualBox
 tags:
-  - Jekyll
+  - "Series: Metasploitable 2"
   - update
 ---
 
