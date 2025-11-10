@@ -75,10 +75,10 @@ bidirectional
 
 
 
-This should be explained <a href=#vm-setup>below</a> where I install Kali Linux
+<!-- This should be explained <a href=#vm-setup>below</a> where I install Kali Linux
 <span id="vm-setup">Kali Linux setup</span>
 used for HTML
-not for markdown
+not for markdown -->
 ----------------------------
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
