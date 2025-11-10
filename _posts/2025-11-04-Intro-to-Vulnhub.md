@@ -8,7 +8,7 @@ tags:
   - update
 ---
 
-Downloading Kali Linux
+<strong>Kali Linux</strong>
 - importance + usage
 - iso files
 
@@ -19,6 +19,8 @@ Setting up VirtualBox
 - settings + reasoning
 - screenshots
 
+
+----------------------------
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
 When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `<p></p>` element. 
