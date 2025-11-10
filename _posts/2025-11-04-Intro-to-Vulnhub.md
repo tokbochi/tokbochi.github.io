@@ -44,10 +44,10 @@ _Setting Up My First VM:_
 
 This should be explained [below](#vm-setup) where I install Kali Linux
 
-Lessons Learned / Further Research Needed:
-I had trouble with mouse+keyboard capture. This feature allows for the VM to recognize keyboard and mouse activity and take control of the activity so that the VM can use them independent of the host. During this capture, activity is not recognized by the host. The Host key can be used to release this ownership and give control back to the host machine. Originally, the `Host key` is the right ctrl by default. As I don't have a right ctrl on my keyboard, I had to change the settings for this so that I could seamlessly switch control of my mouse + keyboard between the host and the guest machines.
-**add screenshots
+_Lessons Learned / Further Research Needed:_
 
+I had trouble with mouse+keyboard capture. This feature allows for the VM to recognize keyboard and mouse activity and take control of the activity so that the VM can use them independent of the host. During this capture, activity is not recognized by the host. The Host key can be used to release this ownership and give control back to the host machine. Originally, the `Host key` is the right ctrl by default. As I don't have a right ctrl on my keyboard, I had to change the settings for this so that I could seamlessly switch control of my mouse + keyboard between the host and the guest machines.  
+**add screenshots**  
 Further explained in the [VirtualBox Manual][vb-manual]
 
 - I am still not too familiar with configuring VM settings, such as RAM and disk space. I hope to have a better understanding of these settings and what to choose depending on what I hope to accomplish with the VM in the future.
