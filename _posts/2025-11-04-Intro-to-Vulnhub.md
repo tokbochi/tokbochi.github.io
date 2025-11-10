@@ -10,11 +10,11 @@ tags:
 
 <strong>VIRTUALBOX AND KALI LINUX</strong>
 
-> Brief Intro
+**Brief Intro**
 
 I have been interested in learning about VMs and vulnerable machines. While learning more about relevant concepts and skills, I hope to document my learning to both track my progress and reference in the future. This should be the start to a short series in exploring and getting comfortable with VirtualBox and my first vulnerable machine.
 
-> Tools/Sites
+**Tools/Sites**
 
 [VirtualBox][vb-site]
 
@@ -29,7 +29,7 @@ I have been interested in learning about VMs and vulnerable machines. While lear
 [vh-site]: https://www.vulnhub.com/lab/
 [meta-site]: https://www.vulnhub.com/entry/metasploitable-2,29/
 
->VirtualBox
+**VirtualBox**
 
 What is it?
 
@@ -45,7 +45,7 @@ Setting Up My First VM:
 This should be explained <a href=#vm-setup>below</a> where I install Kali Linux
 
 Lessons Learned / Further Research Needed:
-I had trouble with mouse+keyboard capture. This feature allows for the VM to recognize keyboard and mouse activity and take control of the activity so that the VM can use them independent of the host. During this capture, activity is not recognized by the host. The Host key can be used to release this ownership and give control back to the host machine. Originally, the Host key is the right ctrl by default. As I don't have a right ctrl on my keyboard, I had to change the settings for this so that I could seamlessly switch control of my mouse + keyboard between the host and the guest machines.
+I had trouble with mouse+keyboard capture. This feature allows for the VM to recognize keyboard and mouse activity and take control of the activity so that the VM can use them independent of the host. During this capture, activity is not recognized by the host. The Host key can be used to release this ownership and give control back to the host machine. Originally, the `Host key` is the right ctrl by default. As I don't have a right ctrl on my keyboard, I had to change the settings for this so that I could seamlessly switch control of my mouse + keyboard between the host and the guest machines.
 **add screenshots
 
 Further explained in the [VirtualBox Manual][vb-manual]
@@ -59,7 +59,7 @@ Further explained in the [VirtualBox Manual][vb-manual]
 
 
 ----------------------------------------------------------------
-
+> creates blockquote
 <strong>Kali Linux</strong>
 <span id="vm-setup">Kali Linux setup</span>
 - importance + usage
