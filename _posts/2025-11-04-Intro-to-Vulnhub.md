@@ -59,7 +59,7 @@ Further explained in the [VirtualBox Manual][vb-manual]
 
 
 ----------------------------------------------------------------
-> creates blockquote
+<!-- > creates blockquote -->
 <strong>Kali Linux</strong>
 ## Kali Linux setup {vm-setup}
 - importance + usage
