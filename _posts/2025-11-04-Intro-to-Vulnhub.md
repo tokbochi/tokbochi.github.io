@@ -23,7 +23,7 @@ I have been interested in learning about VMs and vulnerable machines. While lear
 [Vulnhub][vh-site]
 
 [Metasploitable 2][meta-site]
-
+<br><br>
 
 [vb-site]: https://www.virtualbox.org/
 [kali-site]: https://www.kali.org/get-kali/#kali-platforms
@@ -36,17 +36,17 @@ _What is it?_
 
 VirtualBox is a software used to run virtual machines. Virtualization is the process/technology that allows for the loading and use of multiple operating systems (or virtual environments) on a singular host OS (which runs on top of a single host machine). Virtual machines are created using virtualization. These machines are isolated from the host machine and have their own resources, such as storage, memory, network, and OS. These resources, although independent, are taken and allocated from the host machine's hardware. 
 Virtual machines are ideal for testing and managing vulnerable machines as they are isolated from the host machine, and can be used as sandbox environments. This allows any sort of malware or risky activity to be contained within a virtual machine, thus protecting the host machine.  
-
+<br><br>
 
 _How to Install:_
 
 I had downloaded VirtualBox through the official site linked above. From what I remember I had no issues with getting the software installed and running.  
-
+<br><br>
 
 _Setting Up My First VM:_
 
 This should be explained [below](#vm-setup) where I install Kali Linux  
-
+<br><br>
 
 _Lessons Learned / Further Research Needed:_
 
@@ -56,7 +56,7 @@ Further explained in the [VirtualBox Manual][vb-manual]
 
 - I am still not too familiar with configuring VM settings, such as RAM and disk space. I hope to have a better understanding of these settings and what to choose depending on what I hope to accomplish with the VM in the future.
 - I will look into creating snapshots.  
-
+<br><br>
 
 [vb-manual]: https://www.virtualbox.org/manual/topics/working-with-vms.html#keyb_mouse_normal
 
