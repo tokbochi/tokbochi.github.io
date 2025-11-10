@@ -31,18 +31,18 @@ I have been interested in learning about VMs and vulnerable machines. While lear
 
 **VirtualBox**
 
-What is it?
+_What is it?_
 
 VirtualBox is a software used to run virtual machines. Virtualization is the process/technology that allows for the loading and use of multiple operating systems (or virtual environments) on a singular host OS (which runs on top of a single host machine). Virtual machines are created using virtualization. These machines are isolated from the host machine and have their own resources, such as storage, memory, network, and OS. These resources, although independent, are taken and allocated from the host machine's hardware. 
 Virtual machines are ideal for testing and managing vulnerable machines as they are isolated from the host machine, and can be used as sandbox environments. This allows any sort of malware or risky activity to be contained within a virtual machine, thus protecting the host machine.
 
-How to Install:
+_How to Install:_
 
 I had downloaded VirtualBox through the official site linked above. From what I remember I had no issues with getting the software installed and running. 
 
-Setting Up My First VM:
+_Setting Up My First VM:_
 
-This should be explained <a href=#vm-setup>below</a> where I install Kali Linux
+This should be explained [below](#vm-setup) where I install Kali Linux
 
 Lessons Learned / Further Research Needed:
 I had trouble with mouse+keyboard capture. This feature allows for the VM to recognize keyboard and mouse activity and take control of the activity so that the VM can use them independent of the host. During this capture, activity is not recognized by the host. The Host key can be used to release this ownership and give control back to the host machine. Originally, the `Host key` is the right ctrl by default. As I don't have a right ctrl on my keyboard, I had to change the settings for this so that I could seamlessly switch control of my mouse + keyboard between the host and the guest machines.
@@ -61,7 +61,7 @@ Further explained in the [VirtualBox Manual][vb-manual]
 ----------------------------------------------------------------
 > creates blockquote
 <strong>Kali Linux</strong>
-<span id="vm-setup">Kali Linux setup</span>
+## Kali Linux setup {vm-setup}
 - importance + usage
 - iso files
 
@@ -73,6 +73,12 @@ Setting up VirtualBox
 - screenshots
 bidirectional
 
+
+
+This should be explained <a href=#vm-setup>below</a> where I install Kali Linux
+<span id="vm-setup">Kali Linux setup</span>
+used for HTML
+not for markdown
 ----------------------------
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
