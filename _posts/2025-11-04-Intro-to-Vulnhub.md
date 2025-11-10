@@ -61,7 +61,7 @@ Further explained in the [VirtualBox Manual][vb-manual]
 ----------------------------------------------------------------
 <!-- > creates blockquote -->
 <strong>Kali Linux</strong>
-## Kali Linux setup {vm-setup}
+## Kali Linux setup {#vm-setup}
 - importance + usage
 - iso files
 
