@@ -61,7 +61,7 @@ I had trouble with mouse+keyboard capture. This feature allows for the VM to rec
 Further explained in the [VirtualBox Manual][vb-manual]
 
 - I am still not too familiar with configuring VM settings, such as RAM and disk space. I hope to have a better understanding of these settings and what to choose depending on what I hope to accomplish with the VM in the future.
-- I will look into creating snapshots.  
+- I will look into creating snapshots.
 <br><br>
 
 [vb-manual]: https://www.virtualbox.org/manual/topics/working-with-vms.html#keyb_mouse_normal
@@ -69,16 +69,44 @@ Further explained in the [VirtualBox Manual][vb-manual]
 
 
 
-----------------------------------------------------------------
-
+----
 <a name="vm-setup">**Kali Linux**</a>
+
+_What is it?_
+
+placeholder
 - importance + usage
-- iso files
+<br><br>
 
-**METASPLOITABLE 2**  
-Metasploitable: 2 is a popular beginner vulnerable machine used for testing. 
+_How to Install:_
 
-Check hash values to ensure the integrity of download files:  
+placeholder
+<br><br>
+
+_Kali Linux Setup in VirtualBox:_
+
+placeholder
+<br><br>
+
+_Lessons Learned / Further Research Needed:_
+
+iso files
+<br><br>
+
+
+----
+**METASPLOITABLE 2**
+
+_What is it?_
+
+Metasploitable: 2 is a popular beginner vulnerable machine used for testing. I downloaded the VM through Vulnhub, a website that provides a collection of pre-built vulnerable VMs. These can be downloaded and used to practice hands-on security activity in a safe, sandboxed environment.
+<br><br>
+
+_How to Install:_
+
+I downloaded Metasploitable 2 through the Vulnhub website's mirror download for the machine.  
+
+Before installing, I checked the downloaded file's hash values to ensure its integrity:  
 [Here][meta-site] you should find the hash values for both MD5 and SHA1 under `File Information`  
 ![meta-hash](</assets/images/meta-hash.png>)  
 Open PowerShell and use the following command to get the MD5 hash value  
@@ -88,8 +116,15 @@ Open PowerShell and use the following command to get the MD5 hash value
 > Next do the same for the SHA1 hash value  
 ![sha1](</assets/images/sha1.png>)  
 
-I ended up using the mirror download as the hash values did not match for the original zip file download.  
+I ended up using the mirror download as the hash values did not match for the original zip file download.
+<br><br>
 
+_Setting Up in VirtualBox:_
+
+yada yada yada
+<br><br>
+
+----
 Setting up VirtualBox
 - settings + reasoning
 - screenshots
