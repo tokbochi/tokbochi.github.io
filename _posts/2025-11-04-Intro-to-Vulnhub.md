@@ -14,6 +14,8 @@ tags:
 
 I have been interested in learning about VMs and vulnerable machines. While learning more about relevant concepts and skills, I hope to document my learning to both track my progress and reference in the future. This should be the start to a short series in exploring and getting comfortable with VirtualBox and my first vulnerable machine.  
 <br><br>
+
+-------
 **Tools/Sites**
 
 [VirtualBox][vb-site]
@@ -30,6 +32,7 @@ I have been interested in learning about VMs and vulnerable machines. While lear
 [vh-site]: https://www.vulnhub.com/lab/
 [meta-site]: https://www.vulnhub.com/entry/metasploitable-2,29/
 
+----
 **VirtualBox**
 
 _What is it?_
@@ -67,7 +70,7 @@ Further explained in the [VirtualBox Manual][vb-manual]
 
 
 ----------------------------------------------------------------
-<!-- > creates blockquote -->
+
 <strong>Kali Linux</strong>
 ## Kali Linux setup {#vm-setup}
 - importance + usage
@@ -81,13 +84,18 @@ Setting up VirtualBox
 - screenshots
 bidirectional
 
+
+
+<!-- > creates blockquote -->
+
 <!-- ins key to get in and out of overwrite mode -->
 
 <!-- This should be explained <a href=#vm-setup>below</a> where I install Kali Linux
 <span id="vm-setup">Kali Linux setup</span>
 used for HTML
 not for markdown -->
-----------------------------
+
+<!-- ----------------------------
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
 When using Kramdown `{: .notice}` can be added after a sentence to assign the `.notice` to the `<p></p>` element. 
@@ -108,10 +116,4 @@ def print_hi(name)
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+``` -->
