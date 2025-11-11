@@ -86,11 +86,13 @@ placeholder
 _Kali Linux Setup in VirtualBox:_
 
 placeholder
+settings + reasoning
 <br><br>
 
 _Lessons Learned / Further Research Needed:_
 
 iso files
+bidirectional
 <br><br>
 
 
@@ -106,9 +108,11 @@ _How to Install:_
 
 I downloaded Metasploitable 2 through the Vulnhub website's mirror download for the machine.  
 
-Before installing, I checked the downloaded file's hash values to ensure its integrity:  
+Before installing, I checked the downloaded file's hash values to ensure its integrity:
+
 [Here][meta-site] you should find the hash values for both MD5 and SHA1 under `File Information`  
-![meta-hash](</assets/images/meta-hash.png>)  
+![meta-hash](</assets/images/meta-hash.png>)
+
 Open PowerShell and use the following command to get the MD5 hash value  
 > Get-FileHash "download-path" -Algorithm MD5  
 ![md5](</assets/images/md5.png>)  
@@ -122,13 +126,11 @@ I ended up using the mirror download as the hash values did not match for the or
 _Setting Up in VirtualBox:_
 
 yada yada yada
+settings + reasoning
 <br><br>
 
 ----
-Setting up VirtualBox
-- settings + reasoning
-- screenshots
-bidirectional
+
 
 
 
