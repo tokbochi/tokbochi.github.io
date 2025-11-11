@@ -72,12 +72,23 @@ Further explained in the [VirtualBox Manual][vb-manual]
 ----------------------------------------------------------------
 
 <a name="vm-setup">**Kali Linux**</a>
-<!-- ## Kali Linux setup {#vm-setup} -->
 - importance + usage
 - iso files
 
 **METASPLOITABLE 2**
-- explanation
+Metasploitable: 2 is a popular beginner vulnerable machine used for testing. 
+
+Check hash values to ensure the integrity of download files:
+[Download site for Metasploitable 2][meta-site]  
+Here you should find the hash values for both MD5 and SHA1 under `File Information`  
+![meta-hash](</assets/images/meta-hash.png>)  
+Open PowerShell and use the following command to get the MD5 hash value  
+> Get-FileHash "download-path" -Algorithm MD5  
+![md5](</assets/images/md5.png>)  
+Next do the same for the SHA1 hash value  
+![sha1](</assets/images/sha1.png>)  
+
+I ended up using the mirror download as the hash values did not match for the original zip file download.  
 
 Setting up VirtualBox
 - settings + reasoning
@@ -87,6 +98,8 @@ bidirectional
 
 
 <!-- > creates blockquote -->
+
+<!-- ## Kali Linux setup {#vm-setup} -->
 
 <!-- ins key to get in and out of overwrite mode -->
 
