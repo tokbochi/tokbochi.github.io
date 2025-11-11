@@ -71,12 +71,12 @@ Further explained in the [VirtualBox Manual][vb-manual]
 
 ----------------------------------------------------------------
 
-<strong>Kali Linux</strong>
+<a name="vm-setup">**Kali Linux**</a>
 ## Kali Linux setup {#vm-setup}
 - importance + usage
 - iso files
 
-<strong>METASPLOITABLE 2</strong>
+**METASPLOITABLE 2**
 - explanation
 
 Setting up VirtualBox
