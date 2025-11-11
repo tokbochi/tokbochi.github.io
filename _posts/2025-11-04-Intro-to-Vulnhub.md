@@ -35,23 +35,26 @@ I have been interested in learning about VMs and vulnerable machines. While lear
 _What is it?_
 
 VirtualBox is a software used to run virtual machines. Virtualization is the process/technology that allows for the loading and use of multiple operating systems (or virtual environments) on a singular host OS (which runs on top of a single host machine). Virtual machines are created using virtualization. These machines are isolated from the host machine and have their own resources, such as storage, memory, network, and OS. These resources, although independent, are taken and allocated from the host machine's hardware. 
-Virtual machines are ideal for testing and managing vulnerable machines as they are isolated from the host machine, and can be used as sandbox environments. This allows any sort of malware or risky activity to be contained within a virtual machine, thus protecting the host machine.  
+Virtual machines are ideal for testing and managing vulnerable machines as they are isolated from the host machine, and can be used as sandbox environments. This allows any sort of malware or risky activity to be contained within a virtual machine, thus protecting the host machine.
 <br><br>
 
 _How to Install:_
 
-I had downloaded VirtualBox through the official site linked above. From what I remember I had no issues with getting the software installed and running.  
+I had downloaded VirtualBox through the official site linked above. From what I remember I had no issues with getting the software installed and running.
 <br><br>
 
 _Setting Up My First VM:_
 
-This should be explained [below](#vm-setup) where I install Kali Linux  
+This should be explained [below](#vm-setup) where I install Kali Linux
 <br><br>
 
 _Lessons Learned / Further Research Needed:_
 
 I had trouble with mouse+keyboard capture. This feature allows for the VM to recognize keyboard and mouse activity and take control of the activity so that the VM can use them independent of the host. During this capture, activity is not recognized by the host. The Host key can be used to release this ownership and give control back to the host machine. Originally, the `Host key` is the right ctrl by default. As I don't have a right ctrl on my keyboard, I had to change the settings for this so that I could seamlessly switch control of my mouse + keyboard between the host and the guest machines.  
-**add screenshots**  
+Open `preferences` on VirtualBox:  
+![preferences](<Screenshot 2025-11-11 024706.png>)  
+Go to `Virtual Machine` in `Input` settings and change the `Host key` to `Ctrl` (or whatever key you wish you make the Host key)
+![hostkey](<Screenshot 2025-11-11 024738.png>)
 Further explained in the [VirtualBox Manual][vb-manual]
 
 - I am still not too familiar with configuring VM settings, such as RAM and disk space. I hope to have a better understanding of these settings and what to choose depending on what I hope to accomplish with the VM in the future.
@@ -78,7 +81,7 @@ Setting up VirtualBox
 - screenshots
 bidirectional
 
-
+<!-- ins key to get in and out of overwrite mode -->
 
 <!-- This should be explained <a href=#vm-setup>below</a> where I install Kali Linux
 <span id="vm-setup">Kali Linux setup</span>
