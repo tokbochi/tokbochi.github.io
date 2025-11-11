@@ -72,7 +72,7 @@ Further explained in the [VirtualBox Manual][vb-manual]
 ----------------------------------------------------------------
 
 <a name="vm-setup">**Kali Linux**</a>
-## Kali Linux setup {#vm-setup}
+<!-- ## Kali Linux setup {#vm-setup} -->
 - importance + usage
 - iso files
 
