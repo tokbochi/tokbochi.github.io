@@ -96,39 +96,39 @@ I followed [this][kali-tutorial] tutorial for installing Kali Linux onto a Virtu
 > Kali Linux Install Process
 
 1. Graphical Install
-![loc-nongraph](loc-nongraph.png)
-![kb-nongraph](kb-nongraph.png)
+![loc-nongraph](/assets/images/loc-nongraph.png)
+![kb-nongraph](/assets/images/kb-nongraph.png)
 
 2. Configs
-![lang](k-lang.png)
-![loc](k-location.png)
-![keyb](k-keyb.png)
-![hostname](k-hname.png)
-![domain](k-domain.png)
-![username](k-user-name.png)
-![user2](k-user2.png)
-![pass](k-pass.png)
+![lang](/assets/images/k-lang.png)
+![loc](/assets/images/k-location.png)
+![keyb](/assets/images/k-keyb.png)
+![hostname](/assets/images/k-hname.png)
+![domain](/assets/images/k-domain.png)
+![username](/assets/images/k-user-name.png)
+![user2](/assets/images/k-user2.png)
+![pass](/assets/images/k-pass.png)
 
 
 
 
 
 3. Hard DIsk Partitions
-![disk-part](k-disk.png)
-![part](k-partition.png)
-![fin-disk](k-finish-disk.png)
-![format](k-part-format.png)
-![install](k-install.png)
-![config](k-soft-select.png)
+![disk-part](/assets/images/k-disk.png)
+![part](/assets/images/k-partition.png)
+![fin-disk](/assets/images/k-finish-disk.png)
+![format](/assets/images/k-part-format.png)
+![install](/assets/images/k-install.png)
+![config](/assets/images/k-soft-select.png)
 4. Installation Customization
 
 
 5. Finalization
-![grub](k-grub.png)
-![grub2](k-grub2.png)
-![install-fin](k-installfin.png)
-![what](what.png)
-![kali](kali.png)
+![grub](/assets/images/k-grub.png)
+![grub2](/assets/images/k-grub2.png)
+![install-fin](/assets/images/k-installfin.png)
+![what](/assets/images/what.png)
+![kali](/assets/images/kali.png)
 
 [kali-tutorial]: https://phoenixnap.com/kb/how-to-install-kali-linux-on-virtualbox
 <br><br>
