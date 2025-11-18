@@ -80,7 +80,57 @@ placeholder
 
 _How to Install:_
 
-placeholder
+I followed [this][kali-tutorial] tutorial for installing Kali Linux onto a VirtualBox VM. The following process I took pretty much reflects the steps described on the site. 
+
+> VirtualBox Setup + Config Process
+
+1. Downloaded Kali Linux ISO Image
+
+
+2. Created + Setup VirtualBox VM Instance for Kali Linux
+
+
+3. Start VM ****
+
+
+> Kali Linux Install Process
+
+1. Graphical Install
+![loc-nongraph](loc-nongraph.png)
+![kb-nongraph](kb-nongraph.png)
+
+2. Configs
+![lang](k-lang.png)
+![loc](k-location.png)
+![keyb](k-keyb.png)
+![hostname](k-hname.png)
+![domain](k-domain.png)
+![username](k-user-name.png)
+![user2](k-user2.png)
+![pass](k-pass.png)
+
+
+
+
+
+3. Hard DIsk Partitions
+![disk-part](k-disk.png)
+![part](k-partition.png)
+![fin-disk](k-finish-disk.png)
+![format](k-part-format.png)
+![install](k-install.png)
+![config](k-soft-select.png)
+4. Installation Customization
+
+
+5. Finalization
+![grub](k-grub.png)
+![grub2](k-grub2.png)
+![install-fin](k-installfin.png)
+![what](what.png)
+![kali](kali.png)
+
+[kali-tutorial]: https://phoenixnap.com/kb/how-to-install-kali-linux-on-virtualbox
 <br><br>
 
 _Kali Linux Setup in VirtualBox:_
