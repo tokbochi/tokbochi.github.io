@@ -26,7 +26,7 @@ OT security vs IT security
 - Information Technology: technologies that focus on the informational side of things -- it manages information processing, data, applications, and cloud systems.
 
 Definitions gleaned from [Cisco][cisco-info]
-
+<br><br>
 
 [Tenable-site]: tenable.com
 [cisco-info]: https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-ot-vs-it.html#tabs-7edb32179e-item-d43da2dc1e-tab
@@ -45,12 +45,13 @@ _Popular Tools/products_
 
 > Tenable.sc and Tenable.io are both vulnerability management solutions with mainly differences in where they're managed: on-premises vs the cloud. They are both platforms that provide centralized managment for vulnerability scanners. 
 
-Nessus vs Tenable.sc  
+4. Tenable One Exposure Management Platform - platform desighned to provide a unified veiw of the attack surface, from cloud environmnents to traditional IT*****
+<br><br>
+
+_Nessus vs Tenable.sc_  
+
 Nessus is a vulnerability scanning engine that performs its work locally on the dedicated scanning machine it's installed on. This machine will remotely scan all devices/assets on its network. Organizations may use several scanners to manage multiple different network segments. Workload is basically distributed amongst many scanners so one is not overloaded and each network segment can be effectively scanned.  
 The security center platform would be necessary to manage all of the scanners centrally in a system and consolidate information on one management console. Configurations can also be mass-pushed. Vulnerability data is aggregated into one console to produce an easy way to track all vulnerabilities and produce reports, as well as check for compliance/policy requirements.
-
-4. Tenable One Exposure Management Platform - platform desighned to provide a unified veiw of the attack surface, from cloud environmnents to traditional IT*****
-
 <!-- ADDRESS THIS LATER
 >specifics of how vulnerability mangement works
 >key concepts to understamnd: centralized reporting, frameworks, commercial vs govt -->
