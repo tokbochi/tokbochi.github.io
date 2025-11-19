@@ -40,7 +40,7 @@ _Popular Tools/products_
 
 > Tenable.sc and Tenable.io are both vulnerability management solutions with mainly differences in where they're managed: on-premises vs the cloud. They are both platforms that provide centralized managment for vulnerability scanners. 
 
-Nessus vs Tenable.sc
+Nessus vs Tenable.sc 
 Nessus is a vulnerability scanning engine that performs its work locally on the dedicated scanning machine it's installed on. This machine will remotely scan all devices/assets on its network. Organizations may use several scanners to manage multiple different network segments. Workload is basically distributed amongst many scanners so one is not overloaded and each network segment can be effectively scanned.  
 The security center platform would be necessary to manage all of the scanners centrally in a system and consolidate information on one management console. Configurations can also be mass-pushed. Vulnerability data is aggregated into one console to produce an easy way to track all vulnerabilities and produce reports, as well as check for compliance/policy requirements.
 
