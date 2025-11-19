@@ -8,7 +8,12 @@ tags:
   - update
 ---
 
+<strong>DOD POPULAR SECURITY CONCEPTS AND TOOLS</strong>
+
+**Brief Intro**
+
 I will go through the following topics in a manner that made most sense to me to understand how they are interconnected. I am still learning about security tools and concepts but I hope this will give me a good intro.
+<br><br>
 
 **Tenable**
 
