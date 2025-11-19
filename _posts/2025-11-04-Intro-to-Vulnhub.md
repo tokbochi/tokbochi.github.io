@@ -1,5 +1,5 @@
 ---
-title: "M1: Getting Started with VirtualBox and Kali Linux"
+title: "1a: Getting Started with VirtualBox and Kali Linux"
 date: 2025-11-04
 categories:
   - VirtualBox

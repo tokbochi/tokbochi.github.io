@@ -1,5 +1,5 @@
 ---
-title: "2a:asdfasdf"
+title: "2a: Security Concepts and Tools"
 date: 2025-11-04
 categories:
   - Security
@@ -41,9 +41,11 @@ Nessus is a vulnerability scanning engine that performs its work locally on the 
 The security center platform would be necessary to manage all of the scanners centrally in a system and consolidate information on one management console. Configurations can also be mass-pushed. Vulnerability data is aggregated into one console to produce an easy way to track all vulnerabilities and produce reports, as well as check for compliance/policy requirements.
 
 4. Tenable One Exposure Management Platform - platform desighned to provide a unified veiw of the attack surface, from cloud environmnents to traditional IT*****
-<!-- ADDRESS THIS LATER -->
-<!-- >specifics of how vulnerability mangement works
+
+<!-- ADDRESS THIS LATER
+>specifics of how vulnerability mangement works
 >key concepts to understamnd: centralized reporting, frameworks, commercial vs govt -->
+
 [nessus-site]: https://www.tenable.com/products/nessus
 [sc-site]: https://www.tenable.com/products/security-center
 [io-site]: https://www.tenable.com/products/vulnerability-management
