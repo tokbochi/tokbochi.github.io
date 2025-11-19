@@ -32,7 +32,11 @@ _Popular Tools/products_
 
 2. [Tenable.sc][sc-site] - Vulnerability management solution (on-premises) that measures + analyzes vulnerabilities and act on critical exposures. 
 
-3. [Tenable.io][io-site ] - Cloud-based vulnerability management platform.
+3. [Tenable.io][io-site] - Cloud-based vulnerability management platform.
+
+[nessus-site]: https://www.tenable.com/products/nessus
+[sc-site]: https://www.tenable.com/products/security-center
+[io-site]: https://www.tenable.com/products/vulnerability-management
 
 > Tenable.sc and Tenable.io are both vulnerability management solutions with mainly differences in where they're managed: on-premises vs the cloud. They are both platforms that provide centralized managment for vulnerability scanners. 
 
@@ -46,9 +50,6 @@ The security center platform would be necessary to manage all of the scanners ce
 >specifics of how vulnerability mangement works
 >key concepts to understamnd: centralized reporting, frameworks, commercial vs govt -->
 
-[nessus-site]: https://www.tenable.com/products/nessus
-[sc-site]: https://www.tenable.com/products/security-center
-[io-site]: https://www.tenable.com/products/vulnerability-management
 <br><br>
 
 **Nessus**
