@@ -87,4 +87,24 @@ ACAS is a popular system used by the US DoD. It involves a variety of different 
 [acas-info]: https://www.tenable.com/sites/default/files/uploads/documents/whitepapers/Whitepaper-Assured_Compliance_Assessment_Solution_ACAS_Powered_by_Tenable.pdf
 <br><br>
 
-**RMF Risk Management Framework**
+**NIST Risk Management Framework (RMF)**
+
+_What is it?_
+
+RMF most often refers to the NIST Risk Management Framework. It is a structured guideline that is used by organizations to manage risk through identifying, assessing, mitigating, and monitoring them. RMF is used most commonly by federal agencies, which are required to use RMF for their systems.
+
+NIST SP 800-37 is the formal guide that defines/documents RMF in detail.
+
+> NIST = National Institute of Standards and Technology. This organizagtion publishes cybersecurity standards, guidelines, and frameworks. SP is a type of document written and published by NIST -- Special Publications. The SP 800-xx series specifically covers IT/Cybersecurity information.
+<br><br>
+
+_RMF Steps_
+[rmf](assets/images/nist-rmf.png)
+
+0. Prepare
+1. Categorize
+2. Select
+3. Implement
+4. Assess
+5. Authorize
+6. Monitor
