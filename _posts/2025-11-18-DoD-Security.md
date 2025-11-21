@@ -1,14 +1,15 @@
 ---
-title: "2a: Security Concepts and Tools"
-date: 2025-11-04
+title: "2a: Understanding DoD Security Concepts"
+date: 2025-11-18
 categories:
   - Security
 tags:
   - Security
+  - DoD
   - update
 ---
 
-<strong>DOD POPULAR SECURITY CONCEPTS AND TOOLS</strong>
+<strong>UNDERSTANDING DOD SECURITY CONCEPTS</strong>
 
 **Brief Intro**
 
@@ -99,7 +100,7 @@ NIST SP 800-37 is the formal guide that defines/documents RMF in detail.
 <br><br>
 
 _RMF Steps_
-[rmf](assets/images/nist-rmf.png)
+[rmf](<assets/images/nist-rmf.png>)
 
 0. Prepare
 1. Categorize
@@ -108,3 +109,7 @@ _RMF Steps_
 4. Assess
 5. Authorize
 6. Monitor
+
+
+DISA
+STIGs
