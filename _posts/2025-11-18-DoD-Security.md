@@ -100,7 +100,7 @@ NIST SP 800-37 is the formal guide that defines/documents RMF in detail.
 <br><br>
 
 _RMF Steps_
-![rmf](</assets/images/nist-rmf.png>)
+![rmf](/assets/images/nist-rmf.png)
 
 0. Prepare
 1. Categorize
