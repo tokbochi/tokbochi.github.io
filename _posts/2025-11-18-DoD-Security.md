@@ -22,7 +22,7 @@ _About_
 
 [Tenable][Tenable-site] is a company that focuses on exposure management products/solutions to protect organizations from exposure to cyber attacks. This includes cloud security, vulnerability management, OT security, and identity security.
 
-[tenable-logo](assets/images/tenable-logo.webp)
+[tenable-logo](<assets/images/tenable-logo.webp>)
 
 OT security vs IT security
 - Operational Technology: Hardware and software technologies that focus on the industrial side of things -- it involves the monitor/control of devices, processes, and infrastructure 
