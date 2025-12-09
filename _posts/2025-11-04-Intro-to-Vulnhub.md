@@ -80,8 +80,9 @@ placeholder
 
 _How to Install:_
 
-I followed [this][kali-tutorial] tutorial for installing Kali Linux onto a VirtualBox VM. The following process I took pretty much reflects the steps described on the site. 
+I followed [this][kali-tutorial] tutorial for installing Kali Linux onto a VirtualBox VM. The following process I took pretty much reflects the steps described on the site.
 
+[kali-tutorial]: https://phoenixnap.com/kb/how-to-install-kali-linux-on-virtualbox
 > VirtualBox Setup + Config Process
 
 1. Downloaded Kali Linux ISO Image
@@ -95,42 +96,64 @@ I followed [this][kali-tutorial] tutorial for installing Kali Linux onto a Virtu
 
 > Kali Linux Install Process
 
-1. Graphical Install
+1. Non-Graphical Install  
+  Note: Initially, the Kali Linux installer menu has options for Graphical Install vs Install. By choosing Install (fact check this), it took me to a terminal version of the installation configurations. 
+  - choose language
 ![loc-nongraph](/assets/images/loc-nongraph.png)
+  - choose location
 ![kb-nongraph](/assets/images/kb-nongraph.png)
 
-2. Configs
+2. Graphical Install -- Configurations
+  Note: Graphical Install provides a much more ideal UI to interact with.
+  - Select default language
 ![lang](/assets/images/k-lang.png)
+  - Select country
 ![loc](/assets/images/k-location.png)
+  - Select keyboard
 ![keyb](/assets/images/k-keyb.png)
+  - Configure hostname
 ![hostname](/assets/images/k-hname.png)
+  - Configure domain name
 ![domain](/assets/images/k-domain.png)
+  - Create user account
 ![username](/assets/images/k-user-name.png)
+  - Setup username for account
 ![user2](/assets/images/k-user2.png)
+  - Setup password for account
 ![pass](/assets/images/k-pass.png)
 
 
-
-
-
-3. Hard DIsk Partitions
+3. Hard Disk Partitions
+  - Select partitioning method
 ![disk-part](/assets/images/k-disk.png)
+  - Select partitioning scheme
 ![part](/assets/images/k-partition.png)
+  - Confirm overview of partition configurations
 ![fin-disk](/assets/images/k-finish-disk.png)
+  - Confirm partition configuration changes
 ![format](/assets/images/k-part-format.png)
+  - Installation of Kali in progress
 ![install](/assets/images/k-install.png)
+  - Kali system install configurations/customizations
 ![config](/assets/images/k-soft-select.png)
+
+
 4. Installation Customization
 
 
 5. Finalization
+  - Install GRUB bootloader
 ![grub](/assets/images/k-grub.png)
+  - Confirm GRUB bootloader install device
 ![grub2](/assets/images/k-grub2.png)
+  - Installation complete!
 ![install-fin](/assets/images/k-installfin.png)
+  - ???
+  Note: This screen opened when rebooting the VM. I am still unsure what this is but the Kali Linux OS properly booted after I powered off the VM and retried.
 ![what](/assets/images/what.png)
+  - Kali Linux Desktop!
 ![kali](/assets/images/kali.png)
 
-[kali-tutorial]: https://phoenixnap.com/kb/how-to-install-kali-linux-on-virtualbox
 <br><br>
 
 _Kali Linux Setup in VirtualBox:_
