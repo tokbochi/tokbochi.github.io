@@ -28,7 +28,7 @@ OT security vs IT security
 - Operational Technology: Hardware and software technologies that focus on the industrial side of things -- it involves the monitor/control of devices, processes, and infrastructure 
 - Information Technology: technologies that focus on the informational side of things -- it manages information processing, data, applications, and cloud systems.
 
-Definitions gleaned from [Cisco][cisco-info]
+Definitions referenced from [Cisco][cisco-info]
 <br><br>
 
 [Tenable-site]: tenable.com
